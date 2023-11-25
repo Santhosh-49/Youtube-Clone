@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Details</title>
+    <style>
+        body{
+            margin-top:100px;
+            margin-left:450px;
+            padding:0;
+            justify-content: center;
+        }
+        form{
+            height:400px;
+            width:400px;
+            border: 2px solid black;
+            padding-top:20px;
+            padding-left:30px;
+            background-color:rgb(146, 177, 218);
+            font-weight:bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+    <header style="text-decoration:underline;"><b>Personal Details :</b></header>
+    <br>
+    <br>
+    <label>Salutation:</label>
+    <select name="salutation" id="salute">
+        <option value="mr">MR.</option>
+        <option value="ms">MS.</option>
+        <option value="miss">Miss.</option>
+        <option value="dr">DR.</option>
+    </select>
+    <br>
+    <br>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname">
+    <br>
+    <br>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname">
+    <br>
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email">
+    <br>
+    <br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <input type="texts" id="address" >
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
